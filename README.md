@@ -15,18 +15,18 @@ Heart Rate & Diabetes Status
 - Standardization: Used StandardScaler to normalize numerical features.
 - Train-Test Split: Divided data into training and testing sets.
 ## Machine Learning Models Used
--CardioCare implements multiple machine learning classifiers for risk assessment:
--Logistic Regression
--Random Forest Classifier
--HistGradientBoosting Classifier
--SGD Classifier
+- CardioCare implements multiple machine learning classifiers for risk assessment:
+- Logistic Regression
+- Random Forest Classifier
+- HistGradientBoosting Classifier
+- SGD Classifier
 Each model is evaluated based on accuracy, confusion matrix, and ROC-AUC score.
 ## Model Training & Evaluation
--The models were trained using the preprocessed dataset, and their performance was evaluated using the following metrics:
--Accuracy Score: Measures how many predictions were correct.
--Confusion Matrix: Helps analyze true positives, false positives, etc.
--Classification Report: Includes precision, recall, and F1-score.
--ROC-AUC Score: Evaluates model performance in distinguishing classes.
+- The models were trained using the preprocessed dataset, and their performance was evaluated using the following metrics:
+- Accuracy Score: Measures how many predictions were correct.
+- Confusion Matrix: Helps analyze true positives, false positives, etc.
+- Classification Report: Includes precision, recall, and F1-score.
+- ROC-AUC Score: Evaluates model performance in distinguishing classes.
 ## Results
--The Random Forest Classifier performed the best with a high accuracy and AUC score.
--The Logistic Regression model also showed competitive results.
+- The Random Forest Classifier performed the best with a high accuracy and AUC score.
+- The Logistic Regression model also showed competitive results.
