@@ -10,10 +10,10 @@ Smoking & Alcohol Consumption
 BMI & Physical Activity
 Heart Rate & Diabetes Status
 ## Data Preprocessing
--Handling Missing Values: Removed or imputed missing values where necessary.
--Feature Selection: Dropped unnecessary columns.
--Standardization: Used StandardScaler to normalize numerical features.
--Train-Test Split: Divided data into training and testing sets.
+- Handling Missing Values: Removed or imputed missing values where necessary.
+- Feature Selection: Dropped unnecessary columns.
+- Standardization: Used StandardScaler to normalize numerical features.
+- Train-Test Split: Divided data into training and testing sets.
 ## Machine Learning Models Used
 -CardioCare implements multiple machine learning classifiers for risk assessment:
 -Logistic Regression
